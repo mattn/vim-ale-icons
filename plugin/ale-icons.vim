@@ -14,7 +14,7 @@ function! s:update_icons() abort
     if empty(l:define) || has_key(l:define[0], 'icon')
       continue
     endif
-    let l:define[0]['icon'] = 'c:/users/mattn/vimfiles/plugged/vim-lsp-icons/icons/' . s:icons[l:k] . s:icon_ext
+    let l:define[0]['icon'] = s:icons_dir . s:icons[l:k] . s:icon_ext
     call sign_define(l:k, l:define[0])
   endfor
 endfunction
