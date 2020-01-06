@@ -2,7 +2,7 @@ let s:icons_dir = expand('<sfile>:h:h') . '/icons/'
 let s:icons = {
 \ 'ALEErrorSign': 'error',
 \ 'ALEStyleErrorSign': 'error',
-\ 'ALInfoSign': 'information',
+\ 'ALEInfoSign': 'information',
 \ 'ALEWarningSign': 'warning',
 \ 'ALEStyleWarningSign': 'warning',
 \}
